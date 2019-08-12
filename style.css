@@ -1,0 +1,40 @@
+.container{
+    /* border: 1px red solid; */
+}
+
+.searchbar{
+    width: 100%;
+    /* border: 1px blue solid; */
+    display: flex;
+    padding: 0.5em;
+    justify-content: right;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    margin-left: 0.5em;
+}
+
+.articles-layout{
+    display: flex;
+    margin-top: 1em;
+}
+
+.tabs{
+    /* border: 1px green solid; */
+}
+
+.item{
+    border: thin black solid;
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.articles{
+    border: thin black solid;
+    padding: 0.5em;
+}
